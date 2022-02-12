@@ -36,17 +36,14 @@ body {
 .logo-second-part {
      color: var(--primery-title-color);
 }
-.logo:hover {font-weight: 700;
+.logo:hover {
     font-size: 26px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 .logo:focus {
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
@@ -58,26 +55,28 @@ body {
     line-height: 1.14;
     text-align: left;   
 }
-.nav-link{
+.nav-link-stydio:focus, .nav-link-portfolio:focus, .nav-link-contact:focus {
     color: var(--primery-title-color);
 }
-.nav-link:hover{
+.nav-link-stydio:hover , .nav-link-portfolio:hover , .nav-link-contact:hover {
     color: var(--accent-color);
 }
     
-.nav-link:focus{
+.nav-link-stydio:focus {
     color: var(--accent-color);
 }
+
 /*contact*/
-.contact {
+.contact-link-item {
     font-weight: 500;
     line-height: 1.14;
     color: var(--primery-text-color);
 }
-.contact-link:hover{
+
+.contact-link-item:hover{
     color: var(--accent-color);
 }
-.contact-link:focus{
+.contact-link-item:focus{
     color: var(--accent-color);
 }
 
