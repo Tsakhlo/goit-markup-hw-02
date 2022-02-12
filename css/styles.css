@@ -1,0 +1,223 @@
+:root{
+    /* Основные шрифты */
+    --main-font: "Roboto" , sans-serif;
+    --secondary-font: "Raleway" , sans-serif;
+
+
+
+    /* Основные цвета */
+    --primery-text-color: #757575;
+    --primery-white-color: #ffffff;
+    --primery-title-color: #212121;
+    --accent-color: #2196f3;
+}    
+
+   /*body*/
+body {
+    font-family: var(--main-font);
+    color: var(--primery-title-color);
+    background-color: var(--primery-white-color);
+}
+
+/*head*/
+/*logo*/
+
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.logo-first-part {
+    color: var(--accent-color);}
+.logo-second-part {
+     color: var(--primery-title-color);
+}
+.logo:hover {font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo:focus {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+/*nav*/
+
+.nav-list {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    text-align: left;   
+}
+.nav-link{
+    color: var(--primery-title-color);
+}
+.nav-link:hover{
+    color: var(--accent-color);
+}
+    
+.nav-link:focus{
+    color: var(--accent-color);
+}
+/*contact*/
+.contact {
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--primery-text-color);
+}
+.contact-link:hover{
+    color: var(--accent-color);
+}
+.contact-link:focus{
+    color: var(--accent-color);
+}
+
+/*section hero*/
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primery-white-color);
+    background-color: #2F303A;
+
+}
+
+/*hero-button*/
+
+.hero-button {
+    font-family: inherit;
+    color: var(--primery-white-color);
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;  
+    text-align: center;
+
+}
+
+/*section dignity*/
+
+.product-title .team-title{   
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/*section team*/
+.team {
+    background-color: #F5F4FA;
+}
+.teammate-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+}
+.teammate-major{
+    line-height: 1.18;
+}
+
+/*portfolio filter*/
+
+.page-filters-btn{
+    font-family: inherit;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+}
+.page-filters-btn:hover{
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+.page-filters-btn:focus{
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+    
+/*work examples*/
+.page-item-link{
+    color: var(--pimery-title-color);
+}
+
+.page-subtitle{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.page-text{
+    font-size: 16px;
+    line-height: 1.87}
+
+
+    /*footer*/
+
+.footer{
+    background-color: #2F303A;
+}
+
+
+.footer-logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;}
+
+.footer-logo-first-part {
+    color: var(--accent-color);}
+.footer-logo-second-part{
+    color: var(--primery-white-color);
+}
+
+/*adress*/
+
+.address-list{
+    color: var(--primery-white-color);
+}
+
+.footer-address-link{
+    font-size: 14px;
+    line-height: 1.71; 
+    ; 
+}
+
+.footer-mail-link {
+    color: rgba(255, 255, 255, 0.6); 
+}
+.footer-tel-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress-link:hover, .footer-mail-link:hover, .footer-tel-link:hover{
+    color: #2196F3;
+}
+.footer-adress-link:focus, .footer-mail-link:focus, .footer-tel-link:focus{
+    color: #2196F3;
+}
+
+
+
+
+
+
