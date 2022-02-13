@@ -26,7 +26,7 @@ ul { list-style: none; }
 
 /*head*/
 /*logo*/
-
+.head
 .logo {
     font-family: Raleway;
     font-weight: 700;
@@ -42,12 +42,12 @@ ul { list-style: none; }
 }
 
 /*nav*/
-
-.header 
-    {font-weight: 500;
+.header {
+    font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.14;
     font-style: normal;
+    background-color: var(--primery-white-color);
 }
 
 .nav-link-stydio, .nav-link-portfolio, .nav-link-contact {
@@ -74,7 +74,7 @@ ul { list-style: none; }
 /*section hero*/
 
 .hero{
-    background-color: #2F303A;
+    background-color: var(--primery-background-color);
     color: var(--primery-white-color);
     text-align: center;
 }
