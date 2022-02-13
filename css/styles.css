@@ -3,8 +3,6 @@
     --main-font: "Roboto" , sans-serif;
     --secondary-font: "Raleway" , sans-serif;
 
-
-
     /* Основные цвета */
     --primery-text-color: #757575;
     --primery-white-color: #ffffff;
@@ -14,6 +12,7 @@
     --primery-background-color: #2F303A;
 }
    /*body*/
+
 body {
     font-family: var(--main-font);
     color: var(--primery-title-color);
@@ -24,6 +23,7 @@ body {
 }
 a { text-decoration: none; }
 ul { list-style: none; }
+
 /*head*/
 /*logo*/
 
@@ -37,14 +37,14 @@ ul { list-style: none; }
 .logo-first-part {
     color: var(--accent-color);}
 
-
 .logo:hover, .logo:focus{
     color: var(--accent-color);
 }
 
 /*nav*/
 
-.header{font-weight: 500;
+.header 
+    {font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.14;
     font-style: normal;
@@ -53,15 +53,14 @@ ul { list-style: none; }
 .nav-link-stydio, .nav-link-portfolio, .nav-link-contact {
     text-align: left;
     color: var(--primery-title-color);
-
 }
 .nav-link-stydio:focus, .nav-link-portfolio:focus, .nav-link-contact:focus,
 .nav-link-stydio:hover, .nav-link-portfolio:hover, .nav-link-contact:hover {
     color: var(--accent-color);
 }
 
-   
 /*contact*/
+
 .contact-link-mailto , .contact-link-tel {
     color: var(--primery-text-color);
 }
@@ -72,7 +71,6 @@ ul { list-style: none; }
     color: var(--accent-color);
 }
 
-
 /*section hero*/
 
 .hero{
@@ -80,7 +78,6 @@ ul { list-style: none; }
     color: var(--primery-white-color);
     text-align: center;
 }
-
 
 .hero-title {
     font-weight: 900;
@@ -107,6 +104,7 @@ ul { list-style: none; }
 }
 
 /*section team*/
+
 .team {
     background-color: var(--primery-team-color);
     line-height: 1.18
@@ -140,16 +138,15 @@ ul { list-style: none; }
     cursor: pointer;
 }
 .page-filters-btn:hover ,
-.page-filters-btn:focus
-{
+.page-filters-btn:focus{
     background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
     0px 1px 2px rgba(0, 0, 0, 0.08), 
     0px 2px 2px rgba(0, 0, 0, 0.12);
-
 }
  
 /*work examples*/
+
 .page-item-link{
     color: var(--pimery-title-color);
 }
@@ -165,13 +162,11 @@ ul { list-style: none; }
     font-size: 16px;
     line-height: 1.87}
 
-
     /*footer*/
 
 .footer{
     background-color: var(--primery-background-color);
 }
-
 
 .footer-logo{
     font-family: var(--secondary-font);
