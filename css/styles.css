@@ -38,8 +38,6 @@ body {
 }
 .logo-first-part:hover, .logo-second-part:hover,
 .logo-first-part:focus, .logo-second-part:focus {
-    font-size: 26px;
-    line-height: 1.14;
     color: var(--accent-color);
 }
 
