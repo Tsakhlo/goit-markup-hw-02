@@ -28,16 +28,14 @@ body {
     font-size: 26px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: var(--primery-title-color);
     text-decoration: none;
 }
 .logo-first-part {
     color: var(--accent-color);}
-.logo-second-part {
-     color: var(--primery-title-color);
-}
-.logo-first-part:hover, .logo-second-part:hover,
-.logo-first-part:focus, .logo-second-part:focus {
+
+
+.logo:hover, .logo:focus{
     color: var(--accent-color);
 }
 
@@ -168,15 +166,14 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;}
+    text-decoration: none;
+    color: var(--primery-white-color)}
 
 .footer-logo-first-part {
     color: var(--accent-color);}
-.footer-logo-second-part{
-    color: var(--primery-white-color);
-}
-.footer-logo-first-part:hover , .footer-logo-second-part:hover,
-.footer-logo-first-part:focus , .footer-logo-second-part:focus{
+
+.footer-logo:hover ,
+.footer-logo:focus {
     color: var(--accent-color);
 }
 
