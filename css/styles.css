@@ -36,12 +36,12 @@ body {
 .logo-second-part {
      color: var(--primery-title-color);
 }
-.logo:hover {
+.logo-first-part:hover, .logo-second-part:hover {
     font-size: 26px;
     line-height: 1.14;
     color: var(--accent-color);
 }
-.logo:focus {
+.logo-first-part:focus, .logo-second-part:focus {
     font-size: 26px;
     line-height: 1.14;
     color: var(--accent-color);
@@ -49,11 +49,12 @@ body {
 
 /*nav*/
 
-.nav-list {
+.nav-link-stydio, .nav-link-portfolio, .nav-link-contact {
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.14;
-    text-align: left;   
+    text-align: left;
+    color: var(--primery-title-color);   
 }
 .nav-link-stydio:focus, .nav-link-portfolio:focus, .nav-link-contact:focus {
     color: var(--primery-title-color);
@@ -62,21 +63,20 @@ body {
     color: var(--accent-color);
 }
     
-.nav-link-stydio:focus {
-    color: var(--accent-color);
-}
+
+
 
 /*contact*/
-.contact-link-item {
+.contact-link-mailto , .contact-link-tel {
     font-weight: 500;
     line-height: 1.14;
     color: var(--primery-text-color);
 }
 
-.contact-link-item:hover{
+.contact-link-mailto:hover , .contact-link-tel:hover{
     color: var(--accent-color);
 }
-.contact-link-item:focus{
+.contact-link-mailto:focus , .contact-link-tel:focus{
     color: var(--accent-color);
 }
 
@@ -98,7 +98,7 @@ body {
 .hero-button {
     font-family: inherit;
     color: var(--primery-white-color);
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -141,14 +141,14 @@ body {
     cursor: pointer;
 }
 .page-filters-btn:hover{
-    background: #2196F3;
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
     0px 1px 2px rgba(0, 0, 0, 0.08), 
     0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
 .page-filters-btn:focus{
-    background: #2196F3;
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
     0px 1px 2px rgba(0, 0, 0, 0.08), 
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -189,10 +189,16 @@ body {
 .footer-logo-second-part{
     color: var(--primery-white-color);
 }
+.footer-logo-first-part:hover , .footer-logo-second-part:hover{
+    color: var(--accent-color);
+}
+.footer-logo-first-part:focus , .footer-logo-second-part:focus{
+    color: var(--accent-color);
+}
 
 /*adress*/
 
-.address-list{
+.footer-adress-link{
     color: var(--primery-white-color);
 }
 
@@ -202,11 +208,9 @@ body {
     ; 
 }
 
-.footer-mail-link {
+.footer-mail-link , .footer-tel-link{
     color: rgba(255, 255, 255, 0.6); 
-}
-.footer-tel-link{
-    color: rgba(255, 255, 255, 0.6);
+
 }
 .footer-adress-link:hover, .footer-mail-link:hover, .footer-tel-link:hover{
     color: #2196F3;
