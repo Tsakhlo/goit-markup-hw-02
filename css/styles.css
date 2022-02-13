@@ -26,7 +26,7 @@ ul { list-style: none; }
 
 /*head*/
 /*logo*/
-.head
+
 .logo {
     font-family: Raleway;
     font-weight: 700;
@@ -47,7 +47,7 @@ ul { list-style: none; }
     letter-spacing: 0.02em;
     line-height: 1.14;
     font-style: normal;
-    background-color: var(--primery-white-color);
+
 }
 
 .nav-link-stydio, .nav-link-portfolio, .nav-link-contact {
